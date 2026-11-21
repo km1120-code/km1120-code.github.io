@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "learning-theory-lab",
+    "title": "Learning Theory Lab",
+    "short": "When does learning generalize?",
+    "area": "LEARNING THEORY",
+    "number": "01",
+    "figure": "uniform-convergence.png",
+    "tags": [
+      "Generalization",
+      "Concentration",
+      "NumPy"
+    ],
+    "description": "A finite hypothesis class, a known data distribution, and a direct comparison between empirical risk and a uniform-convergence bound.",
+    "question": "How quickly does the gap between empirical and population risk decrease as the sample grows?",
+    "method": "Compare 41 fixed threshold classifiers on a synthetic distribution with independent label noise. Compute each classifier\u2019s exact population risk, then repeat sampling 128 times at each training-set size.",
+    "limitation": "The plotted trial percentiles are descriptive Monte Carlo statistics. They are not confidence intervals, and the probability guarantee applies separately at each sample size.",
+    "note": "finite-class-bounds",
+    "note_title": "A finite-class generalization bound, one step at a time",
+    "read_time": "4 min",
+    "summary": {
+      "experiment": "finite-class uniform convergence",
+      "seed": 2026,
+      "trials": 128,
+      "noise": 0.1,
+      "delta": 0.05,
+      "hypotheses": 41,
+      "sizes": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "largest_n_q95": 0.02880078125000004,
+      "largest_n_bound": 0.04251163535815538,
+      "interpretation": "Synthetic Monte Carlo illustration; percentile band is not a confidence interval."
+    }
+  },
+  {
+    "slug": "convex-optimization-notes",
+    "title": "Convex Optimization Notes",
+    "short": "Understanding acceleration.",
+    "area": "OPTIMIZATION",
+    "number": "02",
+    "figure": "convergence.png",
+    "tags": [
+      "Convexity",
+      "Acceleration",
+      "NumPy"
+    ],
+    "description": "Gradient descent and Nesterov acceleration on the same quadratic, with known curvature and an exact reference solution.",
+    "question": "What changes when momentum uses known smoothness and strong-convexity constants?",
+    "method": "Construct one positive-definite 24-dimensional quadratic with condition number 50. Start both methods at zero and compare their objective gaps over 200 gradient steps.",
+    "limitation": "This experiment uses exact curvature constants and a single synthetic objective. It does not establish which optimizer is best for neural-network training.",
+    "note": "quadratic-acceleration",
+    "note_title": "What a quadratic can teach us about momentum",
+    "read_time": "3 min",
+    "summary": {
+      "experiment": "positive-definite quadratic minimization",
+      "seed": 2026,
+      "dimension": 24,
+      "condition_number": 50,
+      "steps": 200,
+      "gradient_descent_final_gap": 1.395294838584617e-05,
+      "accelerated_final_gap": 8.01478450294626e-26,
+      "interpretation": "One synthetic quadratic with known curvature constants; no neural-network claim."
+    }
+  },
+  {
+    "slug": "information-theory-lab",
+    "title": "Information Theory Lab",
+    "short": "Information through noise.",
+    "area": "INFORMATION ENGINEERING",
+    "number": "03",
+    "figure": "binary-channel.png",
+    "tags": [
+      "Entropy",
+      "Channel coding",
+      "NumPy"
+    ],
+    "description": "Explore binary entropy, channel capacity, and the reliability of a simple repetition code through analytical curves and simulation.",
+    "question": "How do channel noise, information rate, and decoding reliability relate in a binary channel?",
+    "method": "Evaluate binary symmetric channel capacity analytically, then simulate 100,000 independent length-three noise patterns at each of 21 noise levels.",
+    "limitation": "The repetition code uses rate 1/3 and does not achieve capacity. Capacity and the decoded error rate measure different properties.",
+    "note": "binary-channel",
+    "note_title": "Capacity and reliability are different questions",
+    "read_time": "4 min",
+    "summary": {
+      "experiment": "memoryless binary symmetric channel",
+      "seed": 2026,
+      "trials_per_noise_level": 100000,
+      "repetition_code_rate": 0.3333333333333333,
+      "maximum_simulation_absolute_error": 0.004070000000000018,
+      "capacity_at_p_0_1": 0.5310044064107188,
+      "interpretation": "Memoryless synthetic channel; repetition code does not achieve capacity."
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "experiment": "memoryless binary symmetric channel",
+  "seed": 2026,
+  "trials_per_noise_level": 100000,
+  "repetition_code_rate": 0.3333333333333333,
+  "maximum_simulation_absolute_error": 0.004070000000000018,
+  "capacity_at_p_0_1": 0.5310044064107188,
+  "interpretation": "Memoryless synthetic channel; repetition code does not achieve capacity."
+}

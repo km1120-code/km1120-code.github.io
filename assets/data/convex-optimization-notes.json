@@ -1,0 +1,10 @@
+{
+  "experiment": "positive-definite quadratic minimization",
+  "seed": 2026,
+  "dimension": 24,
+  "condition_number": 50,
+  "steps": 200,
+  "gradient_descent_final_gap": 1.395294838584617e-05,
+  "accelerated_final_gap": 8.01478450294626e-26,
+  "interpretation": "One synthetic quadratic with known curvature constants; no neural-network claim."
+}
