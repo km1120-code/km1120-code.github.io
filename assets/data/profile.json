@@ -11,7 +11,7 @@
   "affiliation_status": "awaiting_user_details",
   "affiliation_note": "Institution, department, and position have not been provided.",
   "github": "https://github.com/km1120-code",
-  "email": null,
+  "email": "bibwireyesu_221012527@stud.ur.ac.rw",
   "portrait": {
     "path": "assets/img/kwame-cheetah-illustration.webp",
     "caption_visible": false
@@ -19,5 +19,7 @@
   "country_of_origin": "Rwanda",
   "age": null,
   "openreview": null,
-  "biography_status": "Confirmed origin and interests included; age, affiliation, and OpenReview URL awaiting user details."
+  "biography_status": "Confirmed origin and interests included; age, affiliation, and OpenReview URL awaiting user details.",
+  "collaboration_message": "欢迎学术合作",
+  "collaboration_message_en": "Open to academic collaboration."
 }
