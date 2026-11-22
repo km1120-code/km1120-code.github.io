@@ -1,0 +1,731 @@
+[
+  {
+    "id": "s01",
+    "title": "Explicit employment",
+    "text": "Amara Okafor works at Cedar Labs in Kigali.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "label": "PERSON",
+          "text": "Amara Okafor"
+        },
+        {
+          "start": 22,
+          "end": 32,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 36,
+          "end": 42,
+          "label": "LOC",
+          "text": "Kigali"
+        }
+      ],
+      "relations": [
+        {
+          "type": "WORKS_FOR",
+          "head": [
+            0,
+            12
+          ],
+          "tail": [
+            22,
+            32
+          ]
+        }
+      ]
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "label": "PERSON",
+          "text": "Amara Okafor"
+        },
+        {
+          "start": 22,
+          "end": 32,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 36,
+          "end": 42,
+          "label": "LOC",
+          "text": "Kigali"
+        }
+      ],
+      "relations": [
+        {
+          "type": "WORKS_FOR",
+          "head": [
+            0,
+            12
+          ],
+          "tail": [
+            22,
+            32
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "s02",
+    "title": "Founding",
+    "text": "Kofi Mensah founded River AI in Accra.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Kofi Mensah"
+        },
+        {
+          "start": 20,
+          "end": 28,
+          "label": "ORG",
+          "text": "River AI"
+        },
+        {
+          "start": 32,
+          "end": 37,
+          "label": "LOC",
+          "text": "Accra"
+        }
+      ],
+      "relations": [
+        {
+          "type": "FOUNDED",
+          "head": [
+            0,
+            11
+          ],
+          "tail": [
+            20,
+            28
+          ]
+        }
+      ]
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Kofi Mensah"
+        },
+        {
+          "start": 20,
+          "end": 28,
+          "label": "ORG",
+          "text": "River AI"
+        },
+        {
+          "start": 32,
+          "end": 37,
+          "label": "LOC",
+          "text": "Accra"
+        }
+      ],
+      "relations": [
+        {
+          "type": "FOUNDED",
+          "head": [
+            0,
+            11
+          ],
+          "tail": [
+            20,
+            28
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "s03",
+    "title": "Organization location",
+    "text": "Cedar Labs is based in Kigali.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 10,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 23,
+          "end": 29,
+          "label": "LOC",
+          "text": "Kigali"
+        }
+      ],
+      "relations": [
+        {
+          "type": "BASED_IN",
+          "head": [
+            0,
+            10
+          ],
+          "tail": [
+            23,
+            29
+          ]
+        }
+      ]
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 10,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 23,
+          "end": 29,
+          "label": "LOC",
+          "text": "Kigali"
+        }
+      ],
+      "relations": [
+        {
+          "type": "BASED_IN",
+          "head": [
+            0,
+            10
+          ],
+          "tail": [
+            23,
+            29
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "s04",
+    "title": "Joined an organization",
+    "text": "Leila Njeri joined River AI.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Leila Njeri"
+        },
+        {
+          "start": 19,
+          "end": 27,
+          "label": "ORG",
+          "text": "River AI"
+        }
+      ],
+      "relations": [
+        {
+          "type": "WORKS_FOR",
+          "head": [
+            0,
+            11
+          ],
+          "tail": [
+            19,
+            27
+          ]
+        }
+      ]
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Leila Njeri"
+        },
+        {
+          "start": 19,
+          "end": 27,
+          "label": "ORG",
+          "text": "River AI"
+        }
+      ],
+      "relations": [
+        {
+          "type": "WORKS_FOR",
+          "head": [
+            0,
+            11
+          ],
+          "tail": [
+            19,
+            27
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "s05",
+    "title": "Second organization location",
+    "text": "River AI is based in Accra.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "label": "ORG",
+          "text": "River AI"
+        },
+        {
+          "start": 21,
+          "end": 26,
+          "label": "LOC",
+          "text": "Accra"
+        }
+      ],
+      "relations": [
+        {
+          "type": "BASED_IN",
+          "head": [
+            0,
+            8
+          ],
+          "tail": [
+            21,
+            26
+          ]
+        }
+      ]
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "label": "ORG",
+          "text": "River AI"
+        },
+        {
+          "start": 21,
+          "end": 26,
+          "label": "LOC",
+          "text": "Accra"
+        }
+      ],
+      "relations": [
+        {
+          "type": "BASED_IN",
+          "head": [
+            0,
+            8
+          ],
+          "tail": [
+            21,
+            26
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "s06",
+    "title": "Negated statement",
+    "text": "Amara Okafor did not join River AI.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "label": "PERSON",
+          "text": "Amara Okafor"
+        },
+        {
+          "start": 26,
+          "end": 34,
+          "label": "ORG",
+          "text": "River AI"
+        }
+      ],
+      "relations": []
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "label": "PERSON",
+          "text": "Amara Okafor"
+        },
+        {
+          "start": 26,
+          "end": 34,
+          "label": "ORG",
+          "text": "River AI"
+        }
+      ],
+      "relations": []
+    }
+  },
+  {
+    "id": "s07",
+    "title": "Uncertain statement",
+    "text": "Leila Njeri may join Cedar Labs.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Leila Njeri"
+        },
+        {
+          "start": 21,
+          "end": 31,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        }
+      ],
+      "relations": []
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Leila Njeri"
+        },
+        {
+          "start": 21,
+          "end": 31,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        }
+      ],
+      "relations": []
+    }
+  },
+  {
+    "id": "s08",
+    "title": "Unsupported relation type",
+    "text": "Cedar Labs invited Kofi Mensah to Kigali.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 10,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 19,
+          "end": 30,
+          "label": "PERSON",
+          "text": "Kofi Mensah"
+        },
+        {
+          "start": 34,
+          "end": 40,
+          "label": "LOC",
+          "text": "Kigali"
+        }
+      ],
+      "relations": []
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 10,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 19,
+          "end": 30,
+          "label": "PERSON",
+          "text": "Kofi Mensah"
+        },
+        {
+          "start": 34,
+          "end": 40,
+          "label": "LOC",
+          "text": "Kigali"
+        }
+      ],
+      "relations": []
+    }
+  },
+  {
+    "id": "s09",
+    "title": "Unseen names",
+    "text": "Northstar Labs hired Eva Moreau.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 14,
+          "label": "ORG",
+          "text": "Northstar Labs"
+        },
+        {
+          "start": 21,
+          "end": 31,
+          "label": "PERSON",
+          "text": "Eva Moreau"
+        }
+      ],
+      "relations": [
+        {
+          "type": "WORKS_FOR",
+          "head": [
+            21,
+            31
+          ],
+          "tail": [
+            0,
+            14
+          ]
+        }
+      ]
+    },
+    "prediction": {
+      "entities": [],
+      "relations": []
+    }
+  },
+  {
+    "id": "s10",
+    "title": "Appositive paraphrase",
+    "text": "Kofi Mensah, a researcher at Cedar Labs, spoke in Accra.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Kofi Mensah"
+        },
+        {
+          "start": 29,
+          "end": 39,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "label": "LOC",
+          "text": "Accra"
+        }
+      ],
+      "relations": [
+        {
+          "type": "WORKS_FOR",
+          "head": [
+            0,
+            11
+          ],
+          "tail": [
+            29,
+            39
+          ]
+        }
+      ]
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Kofi Mensah"
+        },
+        {
+          "start": 29,
+          "end": 39,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "label": "LOC",
+          "text": "Accra"
+        }
+      ],
+      "relations": []
+    }
+  },
+  {
+    "id": "s11",
+    "title": "Different verb form",
+    "text": "Leila Njeri co-founded River AI.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Leila Njeri"
+        },
+        {
+          "start": 23,
+          "end": 31,
+          "label": "ORG",
+          "text": "River AI"
+        }
+      ],
+      "relations": [
+        {
+          "type": "FOUNDED",
+          "head": [
+            0,
+            11
+          ],
+          "tail": [
+            23,
+            31
+          ]
+        }
+      ]
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 11,
+          "label": "PERSON",
+          "text": "Leila Njeri"
+        },
+        {
+          "start": 23,
+          "end": 31,
+          "label": "ORG",
+          "text": "River AI"
+        }
+      ],
+      "relations": []
+    }
+  },
+  {
+    "id": "s12",
+    "title": "Two sentences",
+    "text": "Amara Okafor founded Cedar Labs. Cedar Labs is based in Kigali.",
+    "gold": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "label": "PERSON",
+          "text": "Amara Okafor"
+        },
+        {
+          "start": 21,
+          "end": 31,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 33,
+          "end": 43,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 56,
+          "end": 62,
+          "label": "LOC",
+          "text": "Kigali"
+        }
+      ],
+      "relations": [
+        {
+          "type": "FOUNDED",
+          "head": [
+            0,
+            12
+          ],
+          "tail": [
+            21,
+            31
+          ]
+        },
+        {
+          "type": "BASED_IN",
+          "head": [
+            33,
+            43
+          ],
+          "tail": [
+            56,
+            62
+          ]
+        }
+      ]
+    },
+    "prediction": {
+      "entities": [
+        {
+          "start": 0,
+          "end": 12,
+          "label": "PERSON",
+          "text": "Amara Okafor"
+        },
+        {
+          "start": 21,
+          "end": 31,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 33,
+          "end": 43,
+          "label": "ORG",
+          "text": "Cedar Labs"
+        },
+        {
+          "start": 56,
+          "end": 62,
+          "label": "LOC",
+          "text": "Kigali"
+        }
+      ],
+      "relations": [
+        {
+          "type": "FOUNDED",
+          "head": [
+            0,
+            12
+          ],
+          "tail": [
+            21,
+            31
+          ]
+        },
+        {
+          "type": "BASED_IN",
+          "head": [
+            33,
+            43
+          ],
+          "tail": [
+            56,
+            62
+          ]
+        }
+      ]
+    }
+  }
+]

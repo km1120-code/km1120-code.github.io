@@ -46,13 +46,13 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-gi
 - `downloads/`: complete project source archives, including data and tests.
 
 The portrait is an original GPT Image 2 illustration of a fictional young
-adult holding a cheetah cub. It is visibly labeled as AI-generated. Academic
-background fields remain empty until institution, department, and position
-are supplied; the website renders those fields as "Not yet provided". Do not place account passwords, 2FA seeds, tokens, or private
+adult holding a cheetah cub. Its generation provenance is recorded in the source and About page. The introduction uses the provided origin (Rwanda) and research interests.
+Age, institution, department, position, and OpenReview URL remain unset until
+provided. Unfilled background fields are omitted from the visible biography. Do not place account passwords, 2FA seeds, tokens, or private
 research files in this repository.
 
 The prototype includes a visible fictional-profile label and `noindex` metadata.
-IE provisionally means Information Engineering.
+IE means Information Extraction. The featured NLP example includes entity and relation extraction with exact-match evaluation.
 
 ## License and provenance
 

@@ -1,13 +1,10 @@
 {
   "name": "Kwame Mensah",
   "profile_type": "fictional_demo",
-  "tagline": "Machine learning theory · Information engineering",
+  "tagline": "Machine learning theory · Information extraction",
   "slogan": "From Nowhere to Anywhere",
-  "intro": "My interests are in the mathematical foundations of machine learning and information: what allows a model to generalize, how an algorithm converges, and how a message survives noise.",
-  "about": [
-    "I like to connect a precise mathematical question with a small experiment. A bound becomes easier to interpret when its assumptions, its numerical behavior, and its limitations can be examined together.",
-    "This notebook brings together learning theory, convex optimization, and information theory. The current projects use synthetic data and include the code, tests, and figures needed to reproduce each example."
-  ],
+  "intro": "I’m Kwame Mensah, from Rwanda. My research interests are in machine learning theory and information extraction, particularly generalization, optimization, named entity recognition, and relation extraction. I enjoy connecting mathematical ideas with small, reproducible experiments and studying how to extract reliable structured information from text.",
+  "about": [],
   "institution": null,
   "department": null,
   "position": null,
@@ -17,7 +14,11 @@
   "email": null,
   "portrait": {
     "path": "assets/img/kwame-cheetah-illustration.webp",
-    "label": "AI-generated illustration · Fictional character",
-    "model": "gpt-image-2"
-  }
+    "model": "gpt-image-2",
+    "caption_visible": false
+  },
+  "country_of_origin": "Rwanda",
+  "age": null,
+  "openreview": null,
+  "biography_status": "Confirmed origin and interests included; age, affiliation, and OpenReview URL awaiting user details."
 }
