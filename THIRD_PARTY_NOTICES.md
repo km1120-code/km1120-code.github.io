@@ -15,3 +15,10 @@ are not included in this site. Complete license: `licenses/minimal-light-CC0.txt
 DM Sans and Lora from https://github.com/google/fonts are served locally.
 Their SIL Open Font License texts are stored beside the corresponding fonts
 in `assets/fonts/`. The fonts have not been modified.
+
+## Avatar illustration
+
+The fictional avatar was generated on 2026-11-22 using GPT Image 2 for this
+homepage. It is identified as an AI-generated illustration. It is not a
+photograph of a real person. Asset provenance is recorded in
+`assets/data/portrait-provenance.json`.

@@ -1,0 +1,23 @@
+{
+  "name": "Kwame Mensah",
+  "profile_type": "fictional_demo",
+  "tagline": "Machine learning theory · Information engineering",
+  "slogan": "From Nowhere to Anywhere",
+  "intro": "My interests are in the mathematical foundations of machine learning and information: what allows a model to generalize, how an algorithm converges, and how a message survives noise.",
+  "about": [
+    "I like to connect a precise mathematical question with a small experiment. A bound becomes easier to interpret when its assumptions, its numerical behavior, and its limitations can be examined together.",
+    "This notebook brings together learning theory, convex optimization, and information theory. The current projects use synthetic data and include the code, tests, and figures needed to reproduce each example."
+  ],
+  "institution": null,
+  "department": null,
+  "position": null,
+  "affiliation_status": "awaiting_user_details",
+  "affiliation_note": "Institution, department, and position have not been provided.",
+  "github": "https://github.com/km1120-code",
+  "email": null,
+  "portrait": {
+    "path": "assets/img/kwame-cheetah-illustration.webp",
+    "label": "AI-generated illustration · Fictional character",
+    "model": "gpt-image-2"
+  }
+}
