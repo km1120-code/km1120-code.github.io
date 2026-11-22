@@ -1,6 +1,6 @@
 {
   "name": "Kwame Mensah",
-  "profile_type": "fictional_demo",
+  "profile_type": "personal_academic",
   "tagline": "Machine learning theory · Information extraction",
   "slogan": "From Nowhere to Anywhere",
   "intro": "I’m Kwame Mensah, from Rwanda. My research interests are in machine learning theory and information extraction, particularly generalization, optimization, named entity recognition, and relation extraction. I enjoy connecting mathematical ideas with small, reproducible experiments and studying how to extract reliable structured information from text.",
@@ -14,7 +14,6 @@
   "email": null,
   "portrait": {
     "path": "assets/img/kwame-cheetah-illustration.webp",
-    "model": "gpt-image-2",
     "caption_visible": false
   },
   "country_of_origin": "Rwanda",
