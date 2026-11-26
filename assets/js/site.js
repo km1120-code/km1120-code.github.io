@@ -81,19 +81,27 @@
     });
     renderExtraction();
   }
-  if ('IntersectionObserver' in window) {
-    const sections = document.querySelectorAll('section[id]');
-    const observer = new IntersectionObserver(entries => {
-      for (const entry of entries) {
-        if (!entry.isIntersecting) continue;
-        document.querySelectorAll('nav a').forEach(link => {
-          const selected = link.hash === `#${entry.target.id}`;
-          link.classList.toggle('active', selected);
-          if (selected) link.setAttribute('aria-current', 'location');
-          else link.removeAttribute('aria-current');
-        });
+  const sections = [...document.querySelectorAll('section[id]')];
+  const navLinks = [...document.querySelectorAll('nav a')];
+  if (sections.length && navLinks.length) {
+    function updateActiveNav() {
+      let currentId = sections[0].id;
+      if (window.scrollY >= 40) {
+        for (const section of sections) {
+          if (section.getBoundingClientRect().top <= 120) {
+            currentId = section.id;
+          }
+        }
       }
-    }, { rootMargin: '-10% 0px -65% 0px' });
-    sections.forEach(section => observer.observe(section));
+      navLinks.forEach(link => {
+        const selected = link.hash === `#${currentId}`;
+        link.classList.toggle('active', selected);
+        if (selected) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
+      });
+    }
+    window.addEventListener('scroll', updateActiveNav, { passive: true });
+    window.addEventListener('hashchange', updateActiveNav);
+    updateActiveNav();
   }
 })();
